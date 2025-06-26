@@ -29,6 +29,7 @@ export default function Home() {
           style={{ backgroundImage: `url('${backgroundImage}')` }}
         >
           <BackgroundMusic
+            src="./sounds/bg-music.mp3"
             volume={0.5}
             autoPlay={true}
             showControls={true}
